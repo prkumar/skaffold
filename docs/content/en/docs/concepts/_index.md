@@ -36,7 +36,7 @@ The options are:
 | Option | Type | Description |
 | ------ | ---- | ----------- |
 | `default-repo` | string | The image registry where images are published (See below). |
-| `insecure-registries` | list of strings | A list of image registries that may be accesses without TLS. |
+| `insecure-registries` | list of strings | A list of image registries that may be accessed without TLS. |
 | `local-cluster` | boolean | If true, do not try to push images after building. By default, contexts with names `docker-for-desktop`, `docker-desktop`, or `minikube` are treated as local. |
 
 For example, to treat any context as local by default:
